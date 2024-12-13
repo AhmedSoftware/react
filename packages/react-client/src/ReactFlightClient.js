@@ -220,7 +220,7 @@ type SomeChunk<T> =
 
 // $FlowFixMe[missing-this-annot]
 function ReactPromise(
-  status: any,
+  status: string,
   value: any,
   reason: any,
   response: Response,
